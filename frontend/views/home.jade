@@ -1,0 +1,10 @@
+#search
+  form(method="post", action="/chapters")
+    label(for="url-text-box") Enter Url:
+    br
+    input(name="url", type="text")#url-text-box
+    br
+    input(type="submit", value="submit")
+ul
+  each chapterId in chapterIds
+    li: a(href="/chapters/#{ chapterId }") #{ chapterId }
