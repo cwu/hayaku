@@ -4,10 +4,6 @@ node_modules
 pids
 *.log
 .monitor
-public/stylesheets/*.css
-!public/stylesheets/lib/*.css
-public/javascripts/*.js
-!public/javascripts/lib/*.js
 .fuse_*
 *.rdb
 nohup.out

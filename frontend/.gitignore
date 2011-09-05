@@ -1,0 +1,4 @@
+public/style/*.css
+!public/style/lib/*.css
+public/javascripts/*.js
+!public/javascripts/lib/*.js
